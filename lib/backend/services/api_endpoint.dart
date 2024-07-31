@@ -1,7 +1,7 @@
 import 'package:qrpay/extentions/custom_extentions.dart';
 
 class ApiEndpoint {
-  static const String mainDomain = "PUT-YOUR-DOMAIN-HERE";
+  static const String mainDomain = "https://pay.monday.com.vn";
   static const String baseUrl = "$mainDomain/api";
   //! auth
   static String loginURL = '/user/login'.addBaseURl();
